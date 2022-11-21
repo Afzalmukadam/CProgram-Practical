@@ -1,0 +1,70 @@
+#include <stdio.h>
+
+void main()
+{
+     printf("Welcome to C\n");
+    add();
+  
+}
+
+void add()
+{
+    int x,y;
+    printf("enter x : ");
+    scanf("%d",&x);
+    printf("enter y : ");
+    scanf("%d",&y);
+   int sum=0;
+   sum=x+y;
+   printf("Sum is %d",sum);
+}
+
+************************************************
+
+#include <stdio.h>
+
+
+int add()
+{
+     int x,y;
+    printf("enter x : ");
+    scanf("%d",&x);
+    printf("enter y : ");
+    scanf("%d",&y);
+   int sum=0;
+   sum=x+y;;
+   return sum;
+}
+void main()
+{
+     printf("Welcome to C\n");
+  
+    int s=0;
+    s=add();
+    printf("sum is %d ",s);
+}
+
+******************************************************
+
+#include <stdio.h>
+
+void main()
+{
+     printf("Welcome to C\n");
+    int x,y;
+    printf("enter x : ");
+    scanf("%d",&x);
+    printf("enter y : ");
+    scanf("%d",&y);
+    int s=0;
+    s=add(x,y);
+    printf("sum is %d ",s);
+}
+
+int add(int a, int b)
+{
+   
+   int sum=0;
+   sum=a+b;
+   return sum;
+}
