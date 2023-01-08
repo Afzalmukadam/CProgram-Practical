@@ -1,0 +1,87 @@
+#include <stdio.h>
+
+void main()
+{
+     printf("Welcome to C\n");
+    add();
+
+}
+
+void add()
+{
+    int x,y;
+    printf("enter x : ");
+    scanf("%d",&x);
+    printf("enter y : ");
+    scanf("%d",&y);
+   int sum=0;
+   sum=x+y;
+   printf("Addition Result is %d",sum);
+}
+
+****************************************************************
+
+#include <stdio.h>
+
+void main()
+{
+     printf("Welcome to C\n");
+    sub();
+
+}
+
+void sub()
+{
+    int x,y;
+    printf("enter x : ");
+    scanf("%d",&x);
+    printf("enter y : ");
+    scanf("%d",&y);
+   int sum=0;
+   sum=x-y;
+   printf("Subtraction Result is %d",sum);
+}
+
+***********************************************
+
+#include <stdio.h>
+
+void main()
+{
+     printf("Welcome to C\n");
+    mul();
+
+}
+
+void mul()
+{
+    int x,y;
+    printf("enter x : ");
+    scanf("%d",&x);
+    printf("enter y : ");
+    scanf("%d",&y);
+   int sum=0;
+   sum=x*y;
+   printf("Multiplication Result is %d",sum);
+}
+
+********************************************************
+
+#include <stdio.h>
+
+void main()
+{
+     printf("Welcome to C\n");
+    divide();
+}
+void divide()
+{
+    int x,y;
+    printf("enter x : ");
+    scanf("%d",&x);
+    printf("enter y : ");
+    scanf("%d",&y);
+   int sum=0;
+   sum=x/y;
+   printf("Division is %d",sum);
+}
